@@ -1,0 +1,204 @@
+.container {
+	width: 1200px;
+	margin: 20px auto 0 auto;
+}
+
+.bookcontent {
+	width: 910px;
+	height: 500px;
+}
+
+.bookcontent .top {
+	border-bottom: 2px solid #000;
+	height: 44px;
+}
+
+.bookcontent .top h2 {
+	height: 44px;
+	line-height: 44px;
+}
+
+.bookcontent .top ul {
+	border-left: 1px solid #E6E6E6;
+	height: 44px;
+}
+
+.bookcontent .top ul li {
+	float: left;
+	width: 114px;
+	height: 43px;
+	text-align: center;
+	line-height: 43px;
+	border-top: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	color: #646464;
+	font-size: 14px;
+	background: #F5F5F5;
+}
+
+.bookcontent .top ul li.con {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: #fff;
+	width: 112px;
+	height: 42px;
+	line-height: 42px;
+	border-left: 2px solid #000;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #fff;
+}
+.bookcontent .bottom{
+	margin-top: 10px;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	border-top: 1px solid #E6E6E6;
+	height: 442px;
+	position: relative;
+}
+.bookcontent .tab_01{
+	width: 238px;
+}
+.bookcontent .tab_01 img{
+	width: 100%;
+}
+.bookcontent .tab_01 .item{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 238px;
+	border-bottom: 1px solid #E6E6E6;
+	background: #fff;
+}
+.bookcontent .tab_01 .item a{
+	display: inline-block;
+	font-size: 12px;
+	color: #323232;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 17px;
+	width: 33.2%;
+	float: left;
+}
+
+.bookcontent .tab_02{
+	width: 670px;
+	overflow: hidden; /*溢出隐藏*/
+}
+.bookcontent .tab_02 ul{
+	width: 675px;
+}
+.bookcontent .tab_02 li{
+	float: left;
+	border-left: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	height: 220px;
+}
+.bookcontent .tab_02 li.con{
+	width: 335px;
+	height: 220px;
+}
+.bookcontent .tab_02 li.con img{
+	width: 100%;
+	height: auto;
+}
+.bookcontent .tab_02 li .img{
+	margin: 7px;
+}
+.bookcontent .tab_02 li img{
+	width: 153px;
+	height: 153px;
+}
+.bookcontent .tab_02 li .tit{
+	font-size: 14px;
+	color: #646464;
+	padding: 0px 7px 10px 7px;
+}
+.bookcontent .tab_02 li .price{
+	font-size: 12px;
+	padding-left: 7px;
+}
+.bookcontent .tab_02 span{
+	color: #FF2832;
+}
+.bookcontent .tab_02 del {
+	color: #969696;
+}
+
+
+.booklist {
+	width: 280px;
+	border: 1px solid #E6E6E6;
+	height: 498px;
+}
+.booklist .title{
+	
+}
+.booklist .title a{
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	width: 138px;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+}
+.booklist .title a.one{
+	border-right: 1px solid #E6E6E6;
+	width: 139px;
+}
+.booklist .title a.con{
+	background: #F5F5F5;
+	border-bottom: 1px solid #E6E6E6;
+}
+.booklist .list{
+	margin: 12px 0px;
+	overflow: hidden;
+	height: 427px;
+}
+.booklist .item{
+	font-size: 12px;
+	color: #646464;
+}
+.booklist .item span{
+	display: inline-block;
+	width: 40px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	float: left;
+}
+.booklist .item span.red{
+	color: #FF3228;
+}
+.booklist .item .name{
+	float: left;
+	width: 238px;
+}
+.booklist .item .name p{
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.booklist .item .hover{
+	width: 238px;
+	height: 130px;
+	position: relative;
+	border-bottom: 1px solid #E6E6E6;
+}
+.booklist .item .hover img{
+	position: absolute;
+	width: 85px;
+	height: 100px;
+	top: 10px;
+	left: 0px;
+}
+.booklist .item .hover dl{
+	padding-left: 95px;
+	padding-top: 10px;
+	line-height: 20x;
+}
+.booklist .item .hover dd{
+	color: #969696;
+}

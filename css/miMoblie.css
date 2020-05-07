@@ -1,0 +1,213 @@
+/*輪播圖*/
+.Mslider{
+	position: relative;
+}
+.Mslider{
+	width: 100%;
+	height: 620px;
+}
+.Mslider .bimg{
+	margin: 0 auto;
+	height: 620px;
+}
+.Mslider a{
+	display: block;
+	height: 620px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top; 
+	background-size: auto 100%; 	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+.Mslider a.con{
+	z-index: 0;	
+}
+.Mslider .container{
+	height: 620px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin: 0px auto;
+}
+.Mslider .btn{
+	width: 100%;
+	height: 620px;
+	position: relative;
+}
+.Mslider .Lbtn,
+.Mslider .Rbtn{
+	width: 41px;
+	height: 69px;
+	background: url(../img/icon-slides.png) no-repeat -84px 0px;
+}
+.Mslider .Lbtn{
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin-top: -35px;
+}
+.Mslider .Rbtn{
+	background: url(../img/icon-slides.png) no-repeat -125px 0px;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -35px;
+}
+.Mslider .Rbtn:hover{
+	background-position: -42px 0px;
+}
+
+.Mslider .Lbtn:hover{
+	background-position: 0px 0px;
+}
+
+.Mslider ol{
+	position: absolute;
+	bottom: 25px;
+	text-align: center;
+	right: 0px;
+	left: 0px;
+	margin: 0px auto;
+	width: 68px;
+}
+.Mslider ol li{
+	float: left;
+	height: 10px;
+	width: 10px;
+	background: #998C8C;
+	border: 1px solid #B8AFAF;
+	border-radius: 50%;
+	margin:0px 5px 0px 5px;
+}
+.Mslider ol li.con{
+	background: #FFF2F2;
+}
+/*輪播圖end*/
+
+
+
+/*大图*/
+	/*明星产品*/
+.bigtu{
+	background: #F5F5F5;
+}
+.bigtu .container{
+	height: 502px;
+	overflow: visible;
+}
+.bigtu .container .yying{
+	position: relative;
+	top: 0px;
+}
+.ycon{
+	-moz-box-shadow:0px 1px 14px #C7C7C7; 
+	-webkit-box-shadow:0px 1px 14px #C7C7C7; 
+	box-shadow:0px 1px 14px #C7C7C7;	
+}
+.bigtu .title{
+	font-size: 24px;
+	text-align: left;
+	height: 64px;
+	line-height: 64px;
+	padding: 4px 0px 0px 0px;
+	font-weight: 400;
+}
+.bigtu .img a{
+	display: inline-block;
+	height: 434px;
+	width: 854px;
+}
+.bigtu .img img{
+	height: 434px;
+	width: 854px;
+}
+.bigtu .rtext{
+	height: 438px;
+	background: #fff;
+	width: 372px;
+}
+.bigtu .rtext .rt-box{
+	width: 309px;
+	margin: 94px 41px 0px 63px;
+}
+.bigtu .rtext .rt-box p{
+	font-size: 32px;
+	color: #474747;
+	margin-bottom: 10px;
+}
+.bigtu .rtext .rt-box .price {
+	color: #FF6700;
+	margin-top: 40px;
+	margin-bottom: 110px;
+}
+.bigtu .rtext .rt-box .price span{
+	font-size: 12px;
+	color: #FF6700;
+	font-weight: bold;
+}
+.bigtu .rtext .rt-box h5{
+	font-weight: normal; 
+	color: #707070;
+}
+.bigtu .rtext .rt-box h5 a{
+	color: #707070;
+}
+	/*明星产品end*/
+
+	/*并图*/
+.mobmar{
+	padding-top: 14px;
+	/*width: 1250px;*/
+}	
+.mobmar .mobl{
+}
+.mobl .img,
+.mobl .img img,
+.mobl .img a{
+	width: 606px;
+	height: 358px;
+}	
+.mobl .img a{
+	display: inline-block;;	
+}
+.mobl .l-bott{
+	background: #fff;
+	width: 606px;
+	height: 124px;
+	position: relative;
+}
+.mobl .l-bott P{
+	display: inline-block;
+	font-size: 24px;
+	color: #474747;
+	margin-left: 48px;
+	margin-top: 38px;
+}
+.mobl .l-bott h5{
+	font-weight: normal;
+	color: #707070;
+	margin-left: 48px;
+}
+.mobl .l-bott .price{
+	color: #FF6700;
+	font-size: 30px;
+	position: absolute;
+	right: 48px;
+	bottom: 30px;	
+}
+.mobl .l-bott span{
+	font-size: 12px;
+	font-weight: bold;
+}
+.mobl .l-bott .price del{
+	font-size: 12px;
+	color: #545454;
+	margin-left: 2px;
+}
+	/*并图end*/
+	
+/*大图end*/
